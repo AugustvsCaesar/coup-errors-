@@ -1,8 +1,9 @@
 import { JsonRpcProvider } from 'ethers';
 import { getDefaultProvider, Network } from "@lens-network/sdk/ethers";
 import { ethers } from "ethers";
-// src/main.tsx
 import { ThirdwebProvider } from "thirdweb/react";
+import App from "./App";
+
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
   );
 }
 
+export default Main;
 // src/app.tsx
 import { client } from "./client";
 import { ConnectButton } from "thirdweb/react";
